@@ -1,0 +1,39 @@
+.form {
+    width: 332px;
+    margin-top: 9px;
+}
+
+.form input, .form button {
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    padding: 8px 11px;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    color: #CCCCCC
+}
+.form button {
+    background: #4997d0;
+    border: none;
+    color: #ffffff; 
+    cursor: pointer;  
+}
+
+.form button:disabled{
+    cursor: not-allowed;  
+}
+
+.error {
+    color: red;
+    margin-top: 8px;
+}
+
+@media (max-width: 576px) {
+    .form {
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 40px;
+    }
+    
+  }

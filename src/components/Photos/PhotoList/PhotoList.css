@@ -1,0 +1,28 @@
+.photos-list {
+    width: 768px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around ;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.photos-list img {
+    display: block;
+    margin: 15px 10px;
+    width: 229px;
+    height: 142px;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .photos-list {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .photos-list img {
+        width: 280px;
+        height: 171px;
+    }
+}
